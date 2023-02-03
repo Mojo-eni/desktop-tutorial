@@ -1,0 +1,75 @@
+main{
+    width : 70%;
+    background-color: #A0C3D2;
+    padding-left: 20px;
+    border-left: solid 2px #8b0c3f;
+    margin-left: 30%;
+    height: fit-content;
+}
+
+main > div{
+    margin: 10px;
+    padding : 10px;
+    border: solid 2px black;
+}
+.experience{
+    position: static;
+}
+
+.formation{
+    position: static;
+}
+
+.divExp{
+    width: 70%;
+    /* background-color: aqua; */
+}
+
+.divPic{
+    width: 30%;
+    height: auto;
+    /* background-color: #8b0c3f; */
+}
+
+.divPic > a > img {
+   display: block;
+    width: 100%;
+    height: auto;
+}
+
+.divPicEni{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    /* background-color: #8b0c3f; */
+}
+
+.divPicEni> a > img {
+    display: block;
+     width: 100%;
+     height: auto;
+ }
+
+.blocExpPic{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.blocExpPicEni{
+    position: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    font-family: 'Anton', sans-serif;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+
